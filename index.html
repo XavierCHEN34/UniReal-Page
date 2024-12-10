@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=0.2">
+  <meta charset="utf-8">
+  <meta name="description"
+        content="UniReal">
+  <meta name="keywords" content="Image Editing, image generation">
+  <title>UniReal</title>
+
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+
+
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/logo.png">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+<body>
+
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
+  <div class="navbar-menu">
+</nav>
+
+
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+          <h1 class="title is-2 publication-title">
+            <span style="
+                      font-weight: bold;
+                      background: linear-gradient(to right, red, orange, rgb(255, 0, 230));
+                      -webkit-background-clip: text;
+                      color: transparent;
+                    ">
+              UniReal
+            </span>
+            : Universal Image Generation and Editing via Learning Real-world Dynamics
+
+          </h1>
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://xavierchen34.github.io/">Xi Chen</a><sup>1</sup></a>&nbsp</a>&nbsp  
+            </span>
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/zhifei-zhang/">Zhifei Zhang</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/he-zhang/">He Zhang</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/yuqian-zhou/">Yuqian Zhou</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/soo-ye-kim/">Soo Ye Kim</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/qing-liu/">Qing Liu</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/yijun-li/">Yijun Li</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/jianming-zhang/">Jianming Zhang</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/nxzhao/">Nanxuan Zhao</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://yilinwang.org/">Yilin Wang</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="http://www.huiding.org/">Hui Ding</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+          </div>
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block">
+              <a href="https://research.adobe.com/person/zhe-lin/">Zhe Lin</a><sup>2</sup></a>&nbsp</a>&nbsp    
+            </span>
+            <span class="author-block">
+              <a href="https://hszhao.github.io/">Hengshuang Zhao</a><sup>1</sup>  
+            </span>
+          </div>
+
+
+          <div class="is-size-5 publication-authors">
+            <span class="author-block"><sup>1</sup>The University of Hong Kong</a>&nbsp</a>&nbsp  </span>
+            <span class="author-block"><sup>2</sup>Adobe</a>&nbsp</a>&nbsp  </span>
+          </div>
+
+          <div class="column has-text-centered">
+            <div class="publication-links">
+              <!-- PDF Link. -->
+              <span class="link-block">
+                <a href=   "https://arxiv.org/abs/2406.07547"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Paper</span>
+                </a>
+              </span>
+              <!-- Video Link. -->
+              <span class="link-block">
+                <a href="https://youtu.be/1CgpvGxL7uU"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-youtube"></i>
+                  </span>
+                  <span>Video</span>
+                </a>
+              </span>
+              <!-- Code Link. -->
+              <span class="link-block">
+                <a href="https://github.com/"
+                   class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                      <i class="fab fa-github"></i>
+                  </span>
+                  <span>Source(Todo)</span>
+                  </a>
+              </span>
+                </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section" style="margin-top: -5rem;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+          <div class="image-area">
+            <img src="./generate_images/Teaser/teaser.png" alt="teaser" width="100%">
+          </div>
+          <div class="content has-text-justified">
+            <p>
+              Demonstrations of UniReal's versatile capabilities. As a universal framework, UniReal supports a broad spectrum of image
+              generation and editing tasks within a single model, accommodating diverse input-output configurations and generating highly realistic
+              results, which effectively handle challenging scenarios, e.g., shadows, reflections, lighting effects, object pose changes, etc.
+            </p>
+          </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="text-align: center;">Free-form Instructive Editing</h2>
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="./generate_images/Instruct/instruct_demo_p1.png" alt="Instruct" width="100%">
+        </div>
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="./generate_images/Instruct/instruct_demo_p2.png" alt="Instruct" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="text-align: center;">Subject-driven Image Customization</h2>
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="./generate_images/Customization/demo_dream_p1.png" alt="dreambooth" width="100%">
+        </div>
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="./generate_images/Customization/demo_dream_p2.png" alt="dreambooth" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="text-align: center;">Human Image Personlization</h2>
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="./generate_images/Customization/demo_human.png" alt="dreambooth" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="text-align: center;">Object/Part Insertion</h2>
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="./generate_images/Insert/insertion.png" alt="dreambooth" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="text-align: center;">Image Understanding</h2>
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="./generate_images/Understand/seg.png" alt="dreambooth" width="100%">
+        </div>
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="./generate_images/Understand/depth.png" alt="dreambooth" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="text-align: center;">More Applications</h2>
+        <div style="margin-top: 30px; text-align: center;">
+          <img src="./generate_images/Applications/demo.png" alt="teaser" width="100%">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We introduce UniReal, a unified framework designed
+            to address various image generation and editing tasks.
+            Existing solutions often vary by tasks, yet share fundamental
+             principles: preserving consistency between inputs
+            and outputs while capturing visual variations. Inspired by
+            recent video generation models that effectively balance 
+            consistency and variation across frames, we propose a unifying
+            approach that treats image-level tasks as discontinuous
+            video generation. Specifically, we treat varying numbers
+            of input and output images as frames, enabling seamless
+            support for tasks such as image generation, editing, 
+            customization, composition, etc. Although designed for image-level 
+            tasks, we leverage videos as a scalable source for
+            universal supervision. UniReal learns world dynamics from
+            large-scale videos, demonstrating advanced capability in
+            handling shadows, reflections, pose variation, and object
+            interaction, while also exhibiting emergent capability for
+            novel applications.
+          </p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section> 
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="text-align: center;">Overall Pipeline</h2>
+        <div class="image-area">
+          <img src="./static/images/pipeline.png" alt="Overall Pipeline" width="100%">
+        </div>
+        <div class="content has-text-justified">
+          <p>
+            We formulate image generation and editing tasks as discontinuous frame generation. First, input
+            images are encoded into latent space by VAE encoder. Then, we patchify the image latent and noise latent into visual tokens. Afterward,
+            we add index embeddings and image prompt (asset/canvas/control) to the visual tokens. At the same time, the context prompt and base
+            prompt are processed by the T5 encoder. We concatenate all the latent patches and text embeddings as a long 1D tensor and send them to
+            the transformer. Finally, we decode the denoised results to get the desired output images.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section"  style="margin-top: 0; padding-top: 30px;">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3" style="text-align: center;">Video Introduction</h2>
+        <video class="video-center" controls muted playsinline>
+          <source src="https://cloud.video.taobao.com/vod/8MmzQGOIGdlCZLy4Mhd-2KDhBmiM0Hq6f39aoB2yTRA.mp4" type="video/mp4" class="video_style">
+        </video>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>@article{chen2024UniReal,
+      title={UniReal: Universal Image Generation and Editing via Learning Real-world Dynamics},
+      author={Chen, Xi and Zhang, Zhifei and Zhang, He and Zhou, Yuqian and Kim, Soo Ye and Liu, Qing and Li, Yijun and Zhang, Jianming and Zhao, Nanxuan and Wang, Yilin and Ding, Hui and Lin, Zhe and Hengshuang},
+      journal={arXiv preprint},
+      year={2024}
+    }</code></pre>
+  </div>
+</section>
+
+
+<footer class="footer">
+  <div class="container">
+    <div class="content has-text-centered">
+      <a class="icon-link"
+         href="https://arxiv.org/">
+        <i class="fas fa-file-pdf"></i>
+      </a>
+      <a class="icon-link" href="https://github.com" class="external-link" disabled>
+        <i class="fab fa-github"></i>
+      </a>
+    </div>
+    <div class="columns is-centered">
+      <div class="content">
+        <p>
+          The template is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">Nerfies</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
